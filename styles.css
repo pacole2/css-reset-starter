@@ -31,9 +31,6 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-body > h1 {
-    font-size: 6em;
-}
 ol, ul {
 	list-style: none;
 }
@@ -71,6 +68,9 @@ body{
     color: var(--dk-gray);
     margin: 0;
     line-height: 1.35;
+}
+body > h1{
+    font-size: 4em;
 }
 
 /* Styles for the Header, Main, & Footer */
