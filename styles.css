@@ -124,6 +124,10 @@ nav a:hover{
 main > section{
     padding: 1rem 0;
 }
+/* Styles for the h2 & h3 tags */
+h2, h3{
+    text-align: center;
+}
 h2{
     display: block;
     font-size: 1.5em;
@@ -134,11 +138,6 @@ h2{
     font-weight: bold;
     unicode-bidi: isolate;
 }
-/* Styles for the h2 & h3 tags */
-h2, h3{
-    text-align: center;
-}
-
 /* Paragraph Styles */
 p{
     max-width: 65ch;
