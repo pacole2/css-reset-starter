@@ -70,7 +70,9 @@ body{
     line-height: 1.35;
 }
 h1{
-    font-size: larger;
+    font-size: xx-large;
+    font-weight: bold;
+    padding: 2rem;
 }
 
 /* Styles for the Header, Main, & Footer */
