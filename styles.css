@@ -119,6 +119,7 @@ nav a{
     background-color: var(--red);
     color: var(--white);
 }
+
 /* Nav Hover Styles */
 nav a:hover{
     color: var(--red);
@@ -242,13 +243,11 @@ input[type="radio" i] {
     padding: initial;
     border: initial;
 }
-
 input[type=radio] + label {
     cursor: pointer;
     display: flex;
     align-items: center;
 }
-
 input[type=radio] {
     appearance: none;
     margin: 0;
@@ -257,7 +256,6 @@ input[type=radio] {
     font-size: 0;
     border-radius: 0;
 }
-
 input[type=radio] + label::before {
     content: "\00a0";   /* Non-breaking space */
     font-size: 2.75em;
@@ -272,17 +270,14 @@ input[type=radio] + label::before {
     background-color: var(--white);
     padding: 2px 1px 0 0;
 }
-
 input[type=radio]:checked + label::before {
     content: "\2022";
     color: var(--white);
     background: var(--red);
 }
-
 input[type=radio]:focus{
 	outline: none;
 }
-
 input[type=radio]:focus + label::before {
     box-shadow: 0 0 0 2px var(--coral);
 }
