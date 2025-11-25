@@ -30,6 +30,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+    display: block;
+    margin: 8px;
 }
 ol, ul {
 	list-style: none;
@@ -101,7 +103,6 @@ nav{
     margin: 0 auto;
     padding-bottom: 1rem;
 }
-
 nav ul{
     list-style-type: none;
     display: grid;
@@ -109,7 +110,6 @@ nav ul{
     gap: 1rem;
     padding: 0;
 }
-
 nav a{
     display: block;
     padding: 1rem;
@@ -118,7 +118,6 @@ nav a{
     background-color: var(--red);
     color: var(--white);
 }
-
 /* Nav Hover Styles */
 nav a:hover{
     color: var(--red);
@@ -133,6 +132,7 @@ main > section{
 h2, h3{
     text-align: center;
 }
+
 h2{
     display: block;
     font-size: 1.5em;
@@ -171,6 +171,7 @@ form{
     padding: 1rem;
     margin: 0 auto;
 }
+
 h3{
     display: block;
     font-size: 1.17em;
@@ -192,7 +193,7 @@ input, label, textarea{
 }
 
 /* Shared input and textarea Styles */
-input, textarea{
+input, textarea {
     margin: 0.25rem 0 1rem 0;
     width: calc(100% - 8px);
     border: 2px solid var(--red);
@@ -210,6 +211,14 @@ input{
 }
 
 /* Fieldset Styles */
+fieldset {
+    display: grid;
+    grid-template-columns: 0.25fr 6fr 0.25fr 6fr;
+    gap: 1rem;
+    margin: 1rem 0;
+    border-color: var(--red);
+}
+
 fieldset{
     display: block;
     min-inline-size: min-content;
@@ -223,6 +232,16 @@ fieldset{
 }
 
 /* Code for Custom Radios - Compare to Your zyBook, I added additional code to make these match my form styles */
+input[type="radio" i] {
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 3px 3px 0px 5px;
+    padding: initial;
+    border: initial;
+}
+
 input[type=radio] + label {
     cursor: pointer;
     display: flex;
