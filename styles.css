@@ -215,13 +215,6 @@ input {
 
 /* Fieldset Styles */
 fieldset {
-    display: grid;
-    grid-template-columns: 0.25fr 6fr 0.25fr 6fr;
-    gap: 1rem;
-    margin: 1rem 0;
-    border-color: var(--red);
-}q
-fieldset {
     display: block;
     min-inline-size: min-content;
     margin-inline: 2px;
