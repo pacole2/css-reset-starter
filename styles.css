@@ -210,7 +210,7 @@ input{
 }
 
 /* Fieldset Styles */
-fieldset {
+fieldset{
     display: block;
     min-inline-size: min-content;
     margin-inline: 2px;
