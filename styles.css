@@ -51,7 +51,7 @@ table {
 }
 
 /* CSS VARIABLES */
-:root{
+:root {
     --red: #613A43;
     --tan: #837C6F;
     --mint: #AFC0B4;
@@ -65,14 +65,14 @@ table {
 
 /* Body Styles */
 /* You will need to add more, but this adds a background pattern to the page */
-body{
+body {
     background: var(--coral) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 48 48'%3E%3Cg fill='%23613a43' fill-opacity='0.2'%3E%3Cpath d='M12 0h18v6h6v6h6v18h-6v6h-6v6H12v-6H6v-6H0V12h6V6h6V0zm12 6h-6v6h-6v6H6v6h6v6h6v6h6v-6h6v-6h6v-6h-6v-6h-6V6zm-6 12h6v6h-6v-6zm24 24h6v6h-6v-6z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
     font-family: var(--fonts);
     color: var(--dk-gray);
     margin: 0;
     line-height: 1.35;
 }
-h1{
+h1 {
     display: block;
     font-size: 2em;
     margin-block-start: 0.67em;
@@ -85,7 +85,7 @@ h1{
 
 /* Styles for the Header, Main, & Footer */
 /* Limits the width, adds a background color and padding, and centers them on the page */
-header, main, footer{
+header, main, footer {
     padding: 1rem;
     width: calc(1000px - 2rem);
     margin: 0 auto;
@@ -93,25 +93,25 @@ header, main, footer{
 }
 
 /* Shared header and footer styles */
-header, footer{
+header, footer {
     text-align: center;
     background-color: var(--mint);
 }
 
 /* Navigation Styles */
-nav{
+nav {
     width: 50%;
     margin: 0 auto;
     padding-bottom: 1rem;
 }
-nav ul{
+nav ul {
     list-style-type: none;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
     padding: 0;
 }
-nav a{
+nav a {
     display: block;
     padding: 1rem;
     text-decoration: none;
@@ -121,21 +121,21 @@ nav a{
 }
 
 /* Nav Hover Styles */
-nav a:hover{
+nav a:hover {
     color: var(--red);
     background-color: var(--white);
 }
 
 /* Styles for the Sections in the Main */
-main > section{
+main > section {
     padding: 1rem 0;
 }
 
 /* Styles for the h2 & h3 tags */
-h2, h3{
+h2, h3 {
     text-align: center;
 }
-h2{
+h2 {
     display: block;
     font-size: 1.5em;
     margin-block-start: 0.83em;
@@ -147,34 +147,34 @@ h2{
 }
 
 /* Paragraph Styles */
-p{
+p {
     max-width: 65ch;
     margin: 0.5rem auto;
 }
 
 /* Link Styles */
-a{
+a {
     color: var(--red);
 }
 
 /* Link Hover Styles */
-a:hover{
+a:hover {
     text-decoration-color: var(--mint);
 }
 
 /* Link Focus Styles */
-a:focus{
+a:focus {
     outline-color: var(--coral);
     outline-offset: 2px;
 }
 
 /* Form Styles */
-form{
+form {
     width: 300px;
     padding: 1rem;
     margin: 0 auto;
 }
-h3{
+h3 {
     display: block;
     font-size: 1.17em;
     margin-block-start: 1em;
@@ -186,12 +186,12 @@ h3{
 }
 
 /* Input, Label, and textarea styles  */
-input, label, textarea{
+input, label, textarea {
     display: block;
 }
 
 /* For the asterisks in the form section */
-.required{
+.required {
     color: var(--coral);
 }
 
@@ -203,13 +203,13 @@ input, textarea {
 }
 
 /* Input and Textarea Focus Styles */
-input:focus, input:focus-visible, textarea:focus, textarea:focus-visible{
+input:focus, input:focus-visible, textarea:focus, textarea:focus-visible {
     border-color: var(--coral);
     outline: 2px solid var(--coral);
 }
 
 /* input styles */
-input{
+input {
     height: 2rem;
 }
 
@@ -221,7 +221,7 @@ fieldset {
     margin: 1rem 0;
     border-color: var(--red);
 }q
-fieldset{
+fieldset {
     display: block;
     min-inline-size: min-content;
     margin-inline: 2px;
@@ -316,7 +316,7 @@ input[type=radio]:checked + label::before {
     color: var(--white);
     background: var(--red);
 }
-input[type=radio]:focus{
+input[type=radio]:focus {
 	outline: none;
 }
 input[type=radio]:focus + label::before {
@@ -324,12 +324,12 @@ input[type=radio]:focus + label::before {
 }
 
 /* Textarea Styles */
-textarea{
+textarea {
     height: 5rem;
 }
 
 /* Submit Button Styles */
-#my-submit{
+#my-submit {
     padding: 1rem 8px;
     margin: 1rem auto;
     width: 100%;
@@ -342,27 +342,27 @@ textarea{
 }
 
 /* Submit Button Hover Styles */
-#my-submit:hover{
+#my-submit:hover {
     background-color: var(--coral);
     color: var(--dk-gray);
 }
 
 /* Code Styles */
-code{
+code {
     font-family: var(--code-fonts);
     font-size: 1rem;
 }
 
 /* for the pre block */
-pre{
+pre {
     font-family: var(--code-fonts);
 }
-pre code{
+pre code {
     display: grid;
     grid-template-columns: 1fr 1fr;
     border: 2px solid var(--dk-gray);
 }
-code div{
+code div {
     padding: 1rem;
     overflow: scroll;
 }
