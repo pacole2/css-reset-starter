@@ -316,13 +316,11 @@ code{
 pre{
     font-family: var(--code-fonts);
 }
-
 pre code{
     display: grid;
     grid-template-columns: 1fr 1fr;
     border: 2px solid var(--dk-gray);
 }
-
 code div{
     padding: 1rem;
     overflow: scroll;
