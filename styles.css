@@ -210,12 +210,16 @@ input{
 }
 
 /* Fieldset Styles */
-fieldset{
-    display: grid;
-    grid-template-columns: 0.25fr 6fr 0.25fr 6fr;
-    gap: 1rem;
-    margin: 1rem 0;
-    border-color: var(--red);
+fieldset {
+    display: block;
+    min-inline-size: min-content;
+    margin-inline: 2px;
+    border-width: 2px;
+    border-style: groove;
+    border-color: threedface;
+    border-image: initial;
+    padding-block: 0.35em 0.625em;
+    padding-inline: 0.75em;
 }
 
 /* Code for Custom Radios - Compare to Your zyBook, I added additional code to make these match my form styles */
